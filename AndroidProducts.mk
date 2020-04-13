@@ -5,4 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_violet.mk
+    $(LOCAL_DIR)/validus_violet.mk
+
+COMMON_LUNCH_CHOICES := \
+    validus_violet-user \
+    validus_violet-userdebug \
+    validus_violet-eng
